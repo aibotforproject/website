@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA24hs - Soluções em Inteligência Artificial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Header/Navigation -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-indigo-600">IA<span class="text-purple-600">24hs</span></div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-indigo-600 font-medium">Início</a>
+                    <a href="#services" class="text-gray-600 hover:text-indigo-600 transition">Serviços</a>
+                    <a href="#about" class="text-gray-600 hover:text-indigo-600 transition">Sobre</a>
+                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition">Contato</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 gradient-bg text-white">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">Soluções em IA que trabalham por você <span class="text-yellow-300">24 horas por dia</span></h1>
+                <p class="text-xl mb-8">Automatize seu atendimento e aumente suas vendas com nossas soluções inteligentes para WhatsApp, Instagram e Facebook.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#contact" class="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold text-center hover:bg-gray-100 transition duration-300">Fale conosco</a>
+                    <a href="#services" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold text-center hover:bg-white hover:bg-opacity-10 transition duration-300">Nossos serviços</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/2491/2491917.png" alt="IA Illustration" class="w-4/5 floating">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-4xl font-bold text-indigo-600 mb-2">+500</div>
+                    <div class="text-gray-600">Clientes satisfeitos</div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">24/7</div>
+                    <div class="text-gray-600">Atendimento contínuo</div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-4xl font-bold text-indigo-600 mb-2">+90%</div>
+                    <div class="text-gray-600">Eficiência comprovada</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nossas Soluções em IA</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Automatização inteligente para impulsionar seu negócio nas principais plataformas</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- WhatsApp Service -->
+                <div class="service-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300 border border-gray-100">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <i class="fab fa-whatsapp text-green-600 text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">WhatsApp Automatizado</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Chatbots inteligentes que atendem seus clientes 24 horas por dia no WhatsApp, com respostas naturais e personalizadas.</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                <span>Atendimento instantâneo</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                <span>Integração com CRM</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                <span>Vendas automatizadas</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="text-indigo-600 font-medium hover:text-indigo-800 transition">Saiba mais →</a>
+                    </div>
+                </div>
+                
+                <!-- Instagram Service -->
+                <div class="service-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300 border border-gray-100">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-pink-100 p-3 rounded-full mr-4">
+                                <i class="fab fa-instagram text-pink-600 text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">IA para Instagram</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Soluções completas para automatizar respostas, comentários e até mesmo histórias no Instagram com inteligência artificial.</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                <span>Resposta a comentários</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                <span>Mensagens diretas</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                <span>Análise de engajamento</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="text-indigo-600 font-medium hover:text-indigo-800 transition">Saiba mais →</a>
+                    </div>
+                </div>
+                
+                <!-- Facebook Service -->
+                <div class="service-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300 border border-gray-100">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fab fa-facebook-messenger text-blue-600 text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800">Facebook Messenger IA</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Chatbots avançados para Facebook Messenger que entendem contexto e fornecem respostas humanizadas aos seus clientes.</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                <span>Integração com página</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                <span>Agendamento automático</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                <span>Suporte multilíngue</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="text-indigo-600 font-medium hover:text-indigo-800 transition">Saiba mais →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Quem somos</h2>
+                    <p class="text-gray-600 mb-6 text-lg">A IA24hs é especialista em desenvolver soluções personalizadas de inteligência artificial para automatização de atendimento e vendas.</p>
+                    <p class="text-gray-600 mb-6">Nossa equipe de engenheiros e cientistas de dados cria sistemas que aprendem com suas interações, melhorando continuamente o atendimento ao cliente e aumentando suas conversões.</p>
+                    <div class="flex items-center">
+                        <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-brain text-indigo-600 text-2xl"></i>
+                        </div>
+                        <p class="text-gray-600"><span class="font-bold">Tecnologia exclusiva:</span> Nossos algoritmos são treinados especificamente para o mercado brasileiro.</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2885/2885417.png" alt="About IA" class="rounded-lg shadow-xl w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-indigo-600 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">O que nossos clientes dizem</h2>
+                <p class="text-xl text-indigo-100 max-w-2xl mx-auto">Empresas que confiam em nossas soluções de inteligência artificial</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white bg-opacity-10 p-8 rounded-xl backdrop-filter backdrop-blur-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-indigo-500 flex items-center justify-center text-xl font-bold mr-4">A</div>
+                        <div>
+                            <h4 class="font-bold">Ana Silva</h4>
+                            <p class="text-indigo-200">E-commerce de Moda</p>
+                        </div>
+                    </div>
+                    <p class="italic">"Depois de implementar o chatbot da IA24hs no WhatsApp, nossas vendas aumentaram 40% e conseguimos atender todos os clientes instantaneamente, mesmo fora do horário comercial."</p>
+                    <div class="flex mt-4 text-yellow-300">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-white bg-opacity-10 p-8 rounded-xl backdrop-filter backdrop-blur-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-indigo-500 flex items-center justify-center text-xl font-bold mr-4">R</div>
+                        <div>
+                            <h4 class="font-bold">Ricardo Oliveira</h4>
+                            <p class="text-indigo-200">Clínica Médica</p>
+                        </div>
+                    </div>
+                    <p class="italic">"A automação para Instagram revolucionou nosso agendamento de consultas. Os pacientes adoram a facilidade e nossa equipe ganhou tempo para focar no atendimento presencial."</p>
+                    <div class="flex mt-4 text-yellow-300">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-white bg-opacity-10 p-8 rounded-xl backdrop-filter backdrop-blur-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-indigo-500 flex items-center justify-center text-xl font-bold mr-4">M</div>
+                        <div>
+                            <h4 class="font-bold">Mariana Costa</h4>
+                            <p class="text-indigo-200">Imobiliária</p>
+                        </div>
+                    </div>
+                    <p class="italic">"O chatbot para Facebook Messenger qualifica nossos leads automaticamente, enviando apenas os clientes realmente interessados para nossos corretores. Reduzimos o tempo perdido em 70%."</p>
+                    <div class="flex mt-4 text-yellow-300">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Vamos conversar</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Entre em contato para descobrir como a IA pode transformar seu negócio</p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Seu nome</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Seu e-mail</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Telefone (opcional)</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Como podemos ajudar?</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300">Enviar mensagem</button>
+                    </form>
+                </div>
+                <div class="md:w-1/2 md:pl-10">
+                    <div class="bg-gray-50 p-8 rounded-xl h-full">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Nossos contatos</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">E-mail</h4>
+                                    <a href="mailto:contato@ia24hs.com.br" class="text-indigo-600 hover:underline">contato@ia24hs.com.br</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-green-100 p-3 rounded-full mr-4">
+                                    <i class="fab fa-whatsapp text-green-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">WhatsApp</h4>
+                                    <a href="https://wa.me/5511999999999" class="text-indigo-600 hover:underline">(11) 99999-9999</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Endereço</h4>
+                                    <p class="text-gray-600">Av. Paulista, 1000 - São Paulo/SP</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-10">
+                            <h4 class="font-bold text-gray-800 mb-4">Siga-nos</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-indigo-100 text-indigo-600 p-3 rounded-full hover:bg-indigo-200 transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-indigo-100 text-indigo-600 p-3 rounded-full hover:bg-indigo-200 transition">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="bg-indigo-100 text-indigo-600 p-3 rounded-full hover:bg-indigo-200 transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="bg-indigo-100 text-indigo-600 p-3 rounded-full hover:bg-indigo-200 transition">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-2xl font-bold text-white mb-4">IA<span class="text-purple-400">24hs</span></div>
+                    <p class="text-gray-400">Soluções em inteligência artificial para impulsionar seu negócio 24 horas por dia.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Serviços</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">WhatsApp Automatizado</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">IA para Instagram</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Facebook Messenger IA</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Soluções Personalizadas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Links Úteis</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Início</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">Sobre</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+                    <p class="text-gray-400 mb-4">Assine para receber nossas novidades.</p>
+                    <div class="flex">
+                        <input type="email" placeholder="Seu e-mail" class="px-4 py-2 rounded-l-lg focus:outline-none text-gray-800 w-full">
+                        <button class="bg-indigo-600 px-4 py-2 rounded-r-lg hover:bg-indigo-700 transition">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 IA24hs. Todos os direitos reservados.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">Termos de Serviço</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-6 right-6 bg-indigo-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Mobile Menu Toggle (would need additional implementation)
+        document.querySelector('.md\\:hidden').addEventListener('click', function() {
+            // This would toggle a mobile menu - implementation depends on your needs
+            alert('Menu mobile seria aberto aqui em uma implementação completa');
+        });
+    </script>
+</body>
+</html>
