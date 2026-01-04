@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Teste - IA24hs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Header/Navigation -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-indigo-600">IA<span class="text-purple-600">24hs</span></div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html#home" class="text-indigo-600 font-medium">Início</a>
+                    <a href="index.html#services" class="text-gray-600 hover:text-indigo-600 transition">Serviços</a>
+                    <a href="index.html#about" class="text-gray-600 hover:text-indigo-600 transition">Sobre</a>
+                    <a href="index.html#contact" class="text-gray-600 hover:text-indigo-600 transition">Contato</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Chat Test Section -->
+    <section id="chat" class="pt-32 pb-20 bg-gray-50 min-h-screen">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Chat Teste</h1>
+                <p id="status-message" class="text-xl text-gray-600 max-w-2xl mx-auto">Carregando widget de chat...</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-lg max-w-4xl mx-auto text-center">
+                <div id="chat-info" class="text-gray-600">
+                    <i class="fas fa-comments text-6xl text-indigo-600 mb-6"></i>
+                    <p id="token-info" class="text-lg"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-2xl font-bold text-white mb-4">IA<span class="text-purple-400">24hs</span></div>
+                    <p class="text-gray-400">Soluções em inteligência artificial para impulsionar seu negócio 24 horas por dia.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Serviços</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#services" class="text-gray-400 hover:text-white transition">WhatsApp Automatizado</a></li>
+                        <li><a href="index.html#services" class="text-gray-400 hover:text-white transition">IA para Instagram</a></li>
+                        <li><a href="index.html#services" class="text-gray-400 hover:text-white transition">Facebook Messenger IA</a></li>
+                        <li><a href="index.html#services" class="text-gray-400 hover:text-white transition">Soluções Personalizadas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Links Úteis</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#home" class="text-gray-400 hover:text-white transition">Início</a></li>
+                        <li><a href="index.html#services" class="text-gray-400 hover:text-white transition">Serviços</a></li>
+                        <li><a href="index.html#about" class="text-gray-400 hover:text-white transition">Sobre</a></li>
+                        <li><a href="index.html#contact" class="text-gray-400 hover:text-white transition">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2025 IA24hs. Todos os direitos reservados.</p>
+                <div class="flex space-x-6">
+                    <a href="politica-de-privacidade.html" class="text-gray-400 hover:text-white transition">Política de Privacidade</a>
+                    <a href="termos-de-uso.html" class="text-gray-400 hover:text-white transition">Termos de Serviço</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-6 right-6 bg-indigo-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Get websiteToken from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const websiteToken = urlParams.get('websiteToken');
+        
+        const statusMessage = document.getElementById('status-message');
+        const tokenInfo = document.getElementById('token-info');
+
+        if (websiteToken) {
+            statusMessage.textContent = 'Widget de chat carregado com sucesso!';
+            statusMessage.classList.remove('text-gray-600');
+            statusMessage.classList.add('text-green-600');
+            tokenInfo.innerHTML = '<span class="text-green-600"><i class="fas fa-check-circle mr-2"></i>Token configurado corretamente.</span>';
+            
+            // Inject Chatwoot SDK script
+            (function(d,t) {
+                var BASE_URL="https://plataforma.ia24hs.com.br";
+                var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                g.src=BASE_URL+"/packs/js/sdk.js";
+                g.defer = true;
+                g.async = true;
+                s.parentNode.insertBefore(g,s);
+                g.onload=function(){
+                    window.chatwootSDK.run({
+                        websiteToken: websiteToken,
+                        baseUrl: BASE_URL
+                    })
+                }
+            })(document,"script");
+        } else {
+            statusMessage.textContent = 'Erro: Token não fornecido';
+            statusMessage.classList.remove('text-gray-600');
+            statusMessage.classList.add('text-red-600');
+            tokenInfo.innerHTML = '<span class="text-red-600"><i class="fas fa-exclamation-triangle mr-2"></i>Por favor, forneça o parâmetro websiteToken na URL.</span><br><br><code class="bg-gray-100 px-3 py-2 rounded text-sm">chat.html?websiteToken=SEU_TOKEN</code>';
+        }
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Mobile Menu Toggle
+        document.querySelector('.md\\:hidden').addEventListener('click', function() {
+            alert('Menu mobile seria aberto aqui em uma implementação completa');
+        });
+    </script>
+</body>
+</html>
