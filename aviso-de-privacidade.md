@@ -279,9 +279,8 @@ Para entregar o PLATAFORMA e operar nossa infraestrutura, podemos transferir dad
 
 As principais regiões de destino dos Operadores e Controladores parceiros são:
 
-* Brasil — Hostinger Brasil e demais provedores nacionais utilizados na operação corporativa;
-* União Europeia (Alemanha, França e Irlanda) — Hetzner Online GmbH (sistema de licenciamento) e demais Operadores europeus de CRM, documentação e produtividade, todos sob regime do GDPR;
-* Estados Unidos e outras regiões — Meta Platforms, suíte de produtividade corporativa, ferramentas de mensuração estatística e rede global de CDN/proxy.
+* Brasil — Hostinger Brasil, incluindo infraestrutura com servidores localizados no estado de São Paulo (capital e Campinas), além de demais provedores nacionais utilizados na operação corporativa;
+* Estados Unidos e outras regiões — Meta Platforms, Google Cloud Platform, suíte de produtividade corporativa, ferramentas de mensuração estatística e rede global de CDN/proxy.
 
 No modelo self-hosted, o Cliente é livre para escolher provedores de VPS em qualquer país. A transferência internacional decorrente dessa escolha é de responsabilidade exclusiva do Cliente, na qualidade de Controlador dos dados de seus clientes finais. O mesmo se aplica às integrações configuradas pelo Cliente.
 
@@ -302,5 +301,5 @@ Este Aviso pode ser atualizado a qualquer tempo para refletir mudanças na opera
 
 A versão vigente está sempre disponível em <https://ia24hs.com.br/aviso-de-privacidade>.
 
-\ <br>
+<br>
 
