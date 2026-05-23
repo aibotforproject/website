@@ -86,27 +86,24 @@ A VPS onde o sistema será instalado deverá satisfazer os seguintes requisitos 
 * Sistema Operacional: Ubuntu 20.04 ou 22.04 LTS (limpo, sem painel).
 * Armazenamento: SSD ou NVMe a partir de 200GB.
 
-**3.3. Documentação Técnica:**\
-Os requisitos detalhados e atualizados constam no link oficial: <https://ia24hs.com.br/requisitos-de-uso>.
-
-**3.4. Versões Suportadas:**\
+**3.3. Versões Suportadas:**\
 É crucial manter o sistema operacional e navegadores atualizados. As versões suportadas para conexão com a Plataforma WhatsApp são:
 
 * API WhatsApp Business Account v19.0 (ou superior).
 * WhatsApp Web v2.24xx.x (ou superior).
 
-**3.5. Veracidade das Informações:**\
+**3.4. Veracidade das Informações:**\
 O Usuário deve fornecer informações verdadeiras, exatas e atuais. A DMNTECH reserva o direito de recusar o cadastro ou cancelar contas cujos Usuários adotem condutas contrárias a estes Termos ou aos valores da empresa, sem necessidade de notificação prévia ou indenização.
 
-**3.6. Protocolos de Conexão (API Oficial vs. Não Oficial):**
+**3.5. Protocolos de Conexão (API Oficial vs. Não Oficial):**
 
-* **3.6.1. Padrão Recomendado:** A DMNTECH foi desenvolvida para utilizar a API Oficial do WhatsApp (WABA) como padrão. A API Oficial garante maior estabilidade, segurança e suporte direto da Meta, sendo a única opção para a qual oferecemos garantia plena de funcionalidade.
-* **3.6.2. APIs Não Oficiais (Riscos):** Para maior flexibilidade, o sistema permite integração com APIs Não Oficiais (WWebJS, Baileys, Meow, Evolution, Uazapi, Z-API, etc). O uso dessas APIs é de total responsabilidade do Cliente, que deve estar ciente dos riscos, incluindo:
+* **3.5.1. Padrão Recomendado:** A DMNTECH foi desenvolvida para utilizar a API Oficial do WhatsApp (WABA) como padrão. A API Oficial garante maior estabilidade, segurança e suporte direto da Meta, sendo a única opção para a qual oferecemos garantia plena de funcionalidade.
+* **3.5.2. APIs Não Oficiais (Riscos):** Para maior flexibilidade, o sistema permite integração com APIs Não Oficiais (WWebJS, Baileys, Meow, Evolution, Uazapi, Z-API, etc). O uso dessas APIs é de total responsabilidade do Cliente, que deve estar ciente dos riscos, incluindo:
   * Desconexões frequentes;
   * Perda de mensagens enviadas ou recebidas;
   * Instabilidade no funcionamento após atualizações do app WhatsApp;
   * Possíveis bloqueios ou banimentos de contas pela Meta.
-* **3.6.3. Isenção de Garantia:** A DMNTECH não garante a estabilidade, o desempenho ou o suporte técnico para problemas decorrentes exclusivamente do uso de APIs Não Oficiais. Ao habilitar essa conexão, o Cliente assume integralmente os riscos e isenta a DMNTECH de responsabilidade por perdas ou danos.
+* **3.5.3. Isenção de Garantia:** A DMNTECH não garante a estabilidade, o desempenho ou o suporte técnico para problemas decorrentes exclusivamente do uso de APIs Não Oficiais. Ao habilitar essa conexão, o Cliente assume integralmente os riscos e isenta a DMNTECH de responsabilidade por perdas ou danos.
 
 ## 4. DELIMITAÇÃO DE RESPONSABILIDADES E RELAÇÃO COM TERCEIROS
 
