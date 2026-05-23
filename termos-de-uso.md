@@ -21,18 +21,18 @@ atendimentos denominado “**PLATAFORMA**”, fornecido na modalidade auto-hospe
 
 ### QUAIS AS INFORMAÇÕES QUE VOCÊ ENCONTRARÁ NESTES TERMOS
 
-1. [CONCEITOS IMPORTANTES NESTES TERMOS](#id-1.-conceitos-importantes-nestes-termos)
-2. [NATUREZA E EFICÁCIA DOS TERMOS](#id-2.-natureza-e-eficacia-dos-termos)
-3. [REQUISITOS TÉCNICOS E CONDIÇÕES DE OPERAÇÃO](#id-3.-requisitos-tecnicos-e-condicoes-de-operacao)
-4. [DELIMITAÇÃO DE RESPONSABILIDADES E RELAÇÃO COM TERCEIROS](#id-4.-delimitacao-de-responsabilidades-e-relacao-com-terceiros)
-5. [OBJETO E LICENÇA DE USO](#id-5.-objeto-e-licenca-de-uso)
-6. [PLANOS, PAGAMENTO, RENOVAÇÃO E CANCELAMENTO](#id-6.-planos-pagamento-renovacao-e-cancelamento)
-7. [POLÍTICA DE SUPORTE TÉCNICO E SLA](#id-7.-politica-de-suporte-tecnico-e-sla)
-8. [OBRIGAÇÕES, RESPONSABILIDADES E LIMITAÇÕES](#id-8.-obrigacoes-responsabilidades-e-limitacoes)
-9. [PROPRIEDADE INTELECTUAL](#id-9.-propriedade-intelectual)
-10. [PRIVACIDADE E PROTEÇÃO DE DADOS (LGPD)](#id-10.-privacidade-e-protecao-de-dados-lgpd)
-11. [DISPOSIÇÕES GERAIS](#id-11.-disposicoes-gerais)
-12. [FORO E LEGISLAÇÃO APLICÁVEL](#id-12.-foro-e-legislacao-aplicavel)
+1. [CONCEITOS IMPORTANTES NESTES TERMOS](#1-conceitos-importantes-nestes-termos)
+2. [NATUREZA E EFICÁCIA DOS TERMOS](#2-natureza-e-eficacia-dos-termos)
+3. [REQUISITOS TÉCNICOS E CONDIÇÕES DE OPERAÇÃO](#3-requisitos-tecnicos-e-condicoes-de-operacao)
+4. [DELIMITAÇÃO DE RESPONSABILIDADES E RELAÇÃO COM TERCEIROS](#4-delimitacao-de-responsabilidades-e-relacao-com-terceiros)
+5. [OBJETO E LICENÇA DE USO](#5-objeto-e-licenca-de-uso)
+6. [PLANOS, PAGAMENTO, RENOVAÇÃO E CANCELAMENTO](#6-planos-pagamento-renovacao-e-cancelamento)
+7. [POLÍTICA DE SUPORTE TÉCNICO E SLA](#7-politica-de-suporte-tecnico-e-sla)
+8. [OBRIGAÇÕES, RESPONSABILIDADES E LIMITAÇÕES](#8-obrigacoes-responsabilidades-e-limitacoes)
+9. [PROPRIEDADE INTELECTUAL](#9-propriedade-intelectual)
+10. [PRIVACIDADE E PROTEÇÃO DE DADOS (LGPD)](#10-privacidade-e-protecao-de-dados-lgpd)
+11. [DISPOSIÇÕES GERAIS](#11-disposicoes-gerais)
+12. [FORO E LEGISLAÇÃO APLICÁVEL](#12-foro-e-legislacao-aplicavel)
 
 ***
 

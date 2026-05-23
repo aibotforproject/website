@@ -222,6 +222,24 @@
         });
 
 
+        // Configure marked to generate heading IDs matching markdown anchors
+        const renderer = {
+            heading(token) {
+                const text = this.parser.parseInline(token.tokens);
+                const level = token.depth;
+                const id = token.text
+                    .toLowerCase()
+                    .normalize('NFD')
+                    .replace(/[\u0300-\u036f]/g, '') // remove accents
+                    .replace(/[^a-z0-9\s-]/g, '')    // remove non-alphanumeric
+                    .trim()
+                    .replace(/[\s_]+/g, '-')        // replace spaces with hyphens
+                    .replace(/^-+|-+$/g, '');       // trim hyphens
+                return `<h${level} id="${id}">${text}</h${level}>`;
+            }
+        };
+        marked.use({ renderer });
+
         fetch('termos-de-uso.md')
             .then(response => response.text())
             .then(markdown => {

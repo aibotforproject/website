@@ -14,20 +14,20 @@ Este Aviso integra de forma indissociável os [Termos e Condições de Uso do PL
 
 ### SUMÁRIO - INFORMAÇÕES CONTIDAS NESTE AVISO
 
-* [1. Definições](#id-1.-definicoes)
-* [2. A quem se aplica este Aviso](#id-2.-a-quem-se-aplica-este-aviso)
-* [3. Quais dados coletamos e como](#id-3.-quais-dados-coletamos-e-como)
-* [4. Finalidades do tratamento](#id-4.-finalidades-do-tratamento)
-* [5. Bases legais aplicáveis](#id-5.-bases-legais-aplicaveis)
-* [6. Com quem compartilhamos seus dados](#id-6.-com-quem-compartilhamos-seus-dados)
-* [7. Particularidades do modelo self-hosted](#id-7.-particularidades-do-modelo-self-hosted)
-* [8. Por quanto tempo guardamos seus dados](#id-8.-por-quanto-tempo-guardamos-seus-dados)
-* [9. Como protegemos seus dados](#id-9.-como-protegemos-seus-dados)
-* [10. Direitos do Titular](#id-10.-direitos-do-titular)
-* [11. Cookies](#id-11.-cookies)
-* [12. Transferência internacional de dados](#id-12.-transferencia-internacional-de-dados)
-* [13. Encarregado e canais de contato](#id-13.-encarregado-e-canais-de-contato)
-* [14. Alterações desta Política](#id-14.-alteracoes-desta-politica)
+* [1. Definições](#1-definicoes)
+* [2. A quem se aplica este Aviso](#2-a-quem-se-aplica-este-aviso)
+* [3. Quais dados coletamos e como](#3-quais-dados-coletamos-e-como)
+* [4. Finalidades do tratamento](#4-finalidades-do-tratamento)
+* [5. Bases legais aplicáveis](#5-bases-legais-aplicaveis)
+* [6. Com quem compartilhamos seus dados](#6-com-quem-compartilhamos-seus-dados)
+* [7. Particularidades do modelo self-hosted](#7-particularidades-do-modelo-self-hosted)
+* [8. Por quanto tempo guardamos seus dados](#8-por-quanto-tempo-guardamos-seus-dados)
+* [9. Como protegemos seus dados](#9-como-protegemos-seus-dados)
+* [10. Direitos do Titular](#10-direitos-do-titular)
+* [11. Cookies](#11-cookies)
+* [12. Transferência internacional de dados](#12-transferencia-internacional-de-dados)
+* [13. Encarregado e canais de contato](#13-encarregado-e-canais-de-contato)
+* [14. Alterações desta Política](#14-alteracoes-desta-politica)
 
 ***
 
